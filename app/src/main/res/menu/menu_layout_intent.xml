@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="jaimin_patel.example.com.thetechsamachartts.LayoutIntentActivity">
+
+
+    <item
+        android:id="@+id/shareintent"
+        android:title="Search"
+        android:icon="@drawable/share"
+        app:showAsAction="ifRoom|collapseActionView">
+
+    </item>
+</menu>

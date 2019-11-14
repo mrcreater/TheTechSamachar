@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_action_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_tech"
+            android:icon="@drawable/ic_action_tech"
+            android:title="Tech" />
+        <item
+            android:id="@+id/nav_security"
+            android:icon="@drawable/ic_action_security"
+            android:title="Cyber Security" />
+        <item
+            android:id="@+id/nav_attack"
+            android:icon="@drawable/ic_action_cyber_attack"
+            android:title="Cyber Attack" />
+        <item
+            android:id="@+id/nav_did"
+            android:icon="@drawable/ic_action_did_you_know"
+            android:title="Did You Know" />
+        <item
+            android:id="@+id/nav_research"
+            android:icon="@drawable/ic_action_research"
+            android:title="Research" />
+    </group>
+
+
+<item android:title="Settings">
+    <menu>
+        <item
+            android:id="@+id/nightmode"
+            android:title="Night Mode"
+            app:actionLayout="@layout/nightmode">
+        </item>
+
+        <item
+            android:id="@+id/notification"
+            android:title="Turn On Notification"
+            app:actionLayout="@layout/switchdemo">
+        </item>
+    </menu>
+
+</item>
+</menu>
